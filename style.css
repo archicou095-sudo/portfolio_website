@@ -878,7 +878,7 @@ ul {
 }
 
 .project-card {
-  background: var(--bg-card);
+  background: rgba(120, 16, 68, 0.45);
   border: 1px solid var(--border);
   border-radius: var(--radius-lg);
   overflow: hidden;
