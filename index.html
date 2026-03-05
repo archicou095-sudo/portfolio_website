@@ -116,20 +116,32 @@
                     <span class="terminal__dot terminal__dot--red"></span>
                     <span class="terminal__dot terminal__dot--yellow"></span>
                     <span class="terminal__dot terminal__dot--green"></span>
-                    <span class="terminal__title">courtney.js</span>
+                    <span class="terminal__title">materials_tetrahedron.viz</span>
                   </div>
                   <div class="terminal__body">
-                    <pre><code><span class="code-keyword">const</span> <span class="code-variable">courtney</span> = {
-  <span class="code-property">name</span>: <span class="code-string">"Courtney Archibald"</span>,
-  <span class="code-property">role</span>: <span class="code-string">"Materials Science Senior"</span>,
-  <span class="code-property">location</span>: <span class="code-string">"University of Minnesota"</span>,
-  <span class="code-property">passions</span>: [
-    <span class="code-string">"Materials Characterization"</span>,
-    <span class="code-string">"Sustainable Design"</span>,
-    <span class="code-string">"Research & Innovation"</span>
-  ],
-  <span class="code-property">coffee</span>: <span class="code-keyword">true</span>,
-};</code></pre>
+                    <figure class="tetrahedron">
+                      <svg class="tetrahedron__img" viewBox="0 0 320 190" role="img" aria-label="Materials science tetrahedron showing processing, structure, properties, and performance">
+                        <defs>
+                          <linearGradient id="tetra-glow" x1="0" y1="0" x2="1" y2="1">
+                            <stop offset="0%" stop-color="#8aa4ff"/>
+                            <stop offset="100%" stop-color="#4f71ff"/>
+                          </linearGradient>
+                        </defs>
+                        <polygon points="160,28 72,152 248,152" class="tetrahedron__face"></polygon>
+                        <line x1="160" y1="28" x2="160" y2="152" class="tetrahedron__edge"></line>
+                        <line x1="72" y1="152" x2="160" y2="122" class="tetrahedron__edge"></line>
+                        <line x1="248" y1="152" x2="160" y2="122" class="tetrahedron__edge"></line>
+                        <circle cx="160" cy="28" r="5" class="tetrahedron__node"></circle>
+                        <circle cx="72" cy="152" r="5" class="tetrahedron__node"></circle>
+                        <circle cx="248" cy="152" r="5" class="tetrahedron__node"></circle>
+                        <circle cx="160" cy="122" r="5" class="tetrahedron__node"></circle>
+                        <text x="160" y="16" text-anchor="middle">PROCESSING</text>
+                        <text x="44" y="168">STRUCTURE</text>
+                        <text x="250" y="168">PROPERTIES</text>
+                        <text x="160" y="113" text-anchor="middle">PERFORMANCE</text>
+                      </svg>
+                      <figcaption class="tetrahedron__meta">Materials Science Tetrahedron</figcaption>
+                    </figure>
                   </div>
                 </div>
               </div>

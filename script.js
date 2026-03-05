@@ -8,11 +8,11 @@
   // ── Typed Effect ──────────────────────────
   const typedEl = document.getElementById('typed');
   const phrases = [
-    'engineering solutions for real materials.',
-    'data-driven materials research.',
-    'characterization-first lab workflows.',
-    'high-performance material systems.',
-    'reliable designs for real-world use.'
+    'materials science solutions.',
+    'engineering-driven research.',
+    'characterization-focused workflows.',
+    'better-performing materials.',
+    'innovations that matter.'
   ];
   let phraseIndex = 0;
   let charIndex = 0;
