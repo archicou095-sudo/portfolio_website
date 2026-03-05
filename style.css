@@ -736,51 +736,6 @@ ul {
   overflow-x: auto;
 }
 
-.tetrahedron {
-  margin: 0;
-  display: grid;
-  gap: var(--space-sm);
-}
-
-.tetrahedron__img {
-  width: 100%;
-  height: auto;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--border);
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06);
-  background: radial-gradient(circle at 50% 40%, rgba(138, 164, 255, 0.2), rgba(4, 8, 20, 0.8));
-}
-
-.tetrahedron__face {
-  fill: rgba(109, 144, 255, 0.14);
-  stroke: url(#tetra-glow);
-  stroke-width: 2;
-}
-
-.tetrahedron__edge {
-  stroke: rgba(170, 191, 255, 0.85);
-  stroke-width: 1.6;
-}
-
-.tetrahedron__node {
-  fill: #b7c8ff;
-}
-
-.tetrahedron__img text {
-  fill: rgba(227, 235, 255, 0.92);
-  font-family: var(--font-mono);
-  font-size: 9px;
-  letter-spacing: 0.08em;
-}
-
-.tetrahedron__meta {
-  font-family: var(--font-mono);
-  font-size: var(--text-xs);
-  color: var(--text-secondary);
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
 .code-keyword { color: var(--code-keyword); }
 .code-string { color: var(--code-string); }
 .code-variable { color: var(--code-variable); }
