@@ -59,10 +59,10 @@
   --text-secondary: #a0a0ab;
   --text-tertiary: #6b6b76;
 
-  --accent: #6c63ff;
-  --accent-hover: #7b73ff;
-  --accent-glow: rgba(108, 99, 255, 0.15);
-  --accent-subtle: rgba(108, 99, 255, 0.1);
+  --accent: #ff4fa3;
+  --accent-hover: #ff6ab4;
+  --accent-glow: rgba(255, 79, 163, 0.2);
+  --accent-subtle: rgba(255, 79, 163, 0.12);
 
   --border: rgba(255, 255, 255, 0.08);
   --border-hover: rgba(255, 255, 255, 0.15);
@@ -71,7 +71,7 @@
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
   --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.5);
 
-  --glow: radial-gradient(600px circle, rgba(108, 99, 255, 0.06), transparent 40%);
+  --glow: radial-gradient(600px circle, rgba(255, 79, 163, 0.08), transparent 40%);
 
   --code-bg: #161620;
   --code-keyword: #c792ea;
@@ -92,10 +92,10 @@
   --text-secondary: #555560;
   --text-tertiary: #8a8a96;
 
-  --accent: #5b52e0;
-  --accent-hover: #4a42d0;
-  --accent-glow: rgba(91, 82, 224, 0.1);
-  --accent-subtle: rgba(91, 82, 224, 0.06);
+  --accent: #e6398f;
+  --accent-hover: #cf2c80;
+  --accent-glow: rgba(230, 57, 143, 0.14);
+  --accent-subtle: rgba(230, 57, 143, 0.08);
 
   --border: rgba(0, 0, 0, 0.08);
   --border-hover: rgba(0, 0, 0, 0.15);
@@ -104,7 +104,7 @@
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
   --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.12);
 
-  --glow: radial-gradient(600px circle, rgba(91, 82, 224, 0.04), transparent 40%);
+  --glow: radial-gradient(600px circle, rgba(230, 57, 143, 0.06), transparent 40%);
 
   --code-bg: #f5f5fa;
   --code-keyword: #7c3aed;
@@ -752,18 +752,18 @@ ul {
 }
 
 .tetrahedron__face {
-  fill: rgba(109, 144, 255, 0.14);
+  fill: rgba(255, 117, 184, 0.18);
   stroke: url(#tetra-glow);
   stroke-width: 2;
 }
 
 .tetrahedron__edge {
-  stroke: rgba(170, 191, 255, 0.85);
+  stroke: rgba(255, 181, 220, 0.9);
   stroke-width: 1.6;
 }
 
 .tetrahedron__node {
-  fill: #b7c8ff;
+  fill: #ffc7e4;
 }
 
 .tetrahedron__img text {
@@ -910,7 +910,7 @@ ul {
 .project-card__overlay {
   position: absolute;
   inset: 0;
-  background: rgba(108, 99, 255, 0.9);
+  background: rgba(255, 79, 163, 0.9);
   display: flex;
   align-items: center;
   justify-content: center;
