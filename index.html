@@ -116,20 +116,41 @@
                     <span class="terminal__dot terminal__dot--red"></span>
                     <span class="terminal__dot terminal__dot--yellow"></span>
                     <span class="terminal__dot terminal__dot--green"></span>
-                    <span class="terminal__title">courtney.js</span>
+                    <span class="terminal__title">materials_lab.viz</span>
                   </div>
                   <div class="terminal__body">
-                    <pre><code><span class="code-keyword">const</span> <span class="code-variable">courtney</span> = {
-  <span class="code-property">name</span>: <span class="code-string">"Courtney Archibald"</span>,
-  <span class="code-property">role</span>: <span class="code-string">"Materials Science Senior"</span>,
-  <span class="code-property">location</span>: <span class="code-string">"University of Minnesota"</span>,
-  <span class="code-property">passions</span>: [
-    <span class="code-string">"Materials Characterization"</span>,
-    <span class="code-string">"Sustainable Design"</span>,
-    <span class="code-string">"Research & Innovation"</span>
-  ],
-  <span class="code-property">coffee</span>: <span class="code-keyword">true</span>,
-};</code></pre>
+                    <div class="materials-diagram">
+                      <svg class="materials-diagram__svg" viewBox="0 0 320 190" role="img" aria-label="Crystal lattice and characterization metrics diagram">
+                        <g class="lattice">
+                          <line x1="56" y1="42" x2="106" y2="42"></line>
+                          <line x1="106" y1="42" x2="156" y2="42"></line>
+                          <line x1="81" y1="76" x2="131" y2="76"></line>
+                          <line x1="131" y1="76" x2="181" y2="76"></line>
+                          <line x1="56" y1="42" x2="81" y2="76"></line>
+                          <line x1="106" y1="42" x2="131" y2="76"></line>
+                          <line x1="156" y1="42" x2="181" y2="76"></line>
+                          <circle cx="56" cy="42" r="7"></circle>
+                          <circle cx="106" cy="42" r="7"></circle>
+                          <circle cx="156" cy="42" r="7"></circle>
+                          <circle cx="81" cy="76" r="7"></circle>
+                          <circle cx="131" cy="76" r="7"></circle>
+                          <circle cx="181" cy="76" r="7"></circle>
+                        </g>
+                        <g class="chart">
+                          <rect x="220" y="46" width="24" height="86" rx="4"></rect>
+                          <rect x="252" y="30" width="24" height="102" rx="4"></rect>
+                          <rect x="284" y="58" width="24" height="74" rx="4"></rect>
+                        </g>
+                        <text x="20" y="146">Microstructure</text>
+                        <text x="220" y="146">Hardness</text>
+                        <text x="252" y="146">Strength</text>
+                        <text x="284" y="146">Ductility</text>
+                      </svg>
+                      <div class="materials-diagram__meta">
+                        <span>Characterization Focus</span>
+                        <span>SEM • XRD • VSM</span>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
